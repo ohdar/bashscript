@@ -11,3 +11,9 @@ else
 fi
 
 echo "$(ifconfig | grep broadcast | awk '{print $2}')"
+
+echo $HOSTNAME
+echo $USER
+echo $(pwd)
+echo $(date)
+echo $(whoami)
