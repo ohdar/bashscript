@@ -17,3 +17,4 @@ echo $USER
 echo $(pwd)
 echo $(date)
 echo $(whoami)
+cat /etc/shells
