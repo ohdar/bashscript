@@ -29,4 +29,8 @@ echo "'$!' output is $!"
 echo "'$0' your current program name is $0"
 
 # ------------------------------- #
+# Execute below commands in terminal for this file and spot the difference
+# sudo chmod +x spaciavariables.sh
+# ./specialvariables.sh This is test program for specialvaiables
+
 # END #
