@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #Purpose: This file is demonstrating if else statement and if else nesting
 #Version: 1.0
 #Created Date: Thu 4 Aug 01:29:43 IST 2022

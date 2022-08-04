@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #Purpose: Thios is the sample template File
 #Version: 1.0
 #Created Date: Thu 4 Aug 00:35:53 IST 2022

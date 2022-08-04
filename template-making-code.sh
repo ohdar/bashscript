@@ -2,7 +2,7 @@
 echo -e "Please provide filename you want created: \c"
 read -r file
 touch /home/brajesh/Desktop/bashscript/$file.sh
-echo '#!bin/bash' > /home/brajesh/Desktop/bashscript/$file.sh
+echo '#!/bin/bash' > /home/brajesh/Desktop/bashscript/$file.sh
 echo '#Purpose:' >> /home/brajesh/Desktop/bashscript/$file.sh
 echo '#Version: ' >> /home/brajesh/Desktop/bashscript/$file.sh
 echo '#Created Date:' `date` >> /home/brajesh/Desktop/bashscript/$file.sh

@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #Purpose: What is variable? How is it help us in writing shell scripts?
 #Version:  1.0
 #Created Date: Thu 4 Aug 01:07:26 IST 2022

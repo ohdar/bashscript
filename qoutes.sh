@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #Purpose: Verifying Difference between quotation marks
 #Version: 1.0
 #Created Date: Thu 4 Aug 00:58:54 IST 2022

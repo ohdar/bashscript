@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #Purpose: This file is demonstrating case statement
 #Version: 1.0
 #Created Date: Thu 4 Aug 01:27:28 IST 2022
