@@ -1,6 +1,6 @@
 #!/bin/bash
-#Purpose:
-#Version: 
+#Purpose: This program extending arithmatic operation in bash script
+#Version: 1.0
 #Created Date: Thu 4 Aug 17:26:36 IST 2022
 #Modified Date:
 #Author: Brajesh Ohdar
