@@ -1,4 +1,4 @@
-# Install tree package in Ubuntu or Debian like OS to Make this vies of folders and files
+# Install tree package in Ubuntu or Debian like OS to Make this views of folders and files
 <pre><code> sudo apt install tree -y </code></pre>
  
  ## List of File names
