@@ -10,7 +10,7 @@ echo '#Modified Date:' >> /home/brajesh/Desktop/bashscript/$file.sh
 echo '#Author: Brajesh Ohdar' >> /home/brajesh/Desktop/bashscript/$file.sh
 echo '# START #' >> /home/brajesh/Desktop/bashscript/$file.sh
 echo '# ------------------------------- #' >> /home/brajesh/Desktop/bashscript/$file.sh
-echo "DELETE THIS LINE AND WRITE YOUR CODE YOUR PROGRAM HERE"
+echo 'DELETE THIS LINE AND WRITE YOUR CODE YOUR PROGRAM HERE' >> /home/brajesh/Desktop/bashscript/$file.sh
 echo '# ------------------------------- #' >> /home/brajesh/Desktop/bashscript/$file.sh
 echo '# END #' >> /home/brajesh/Desktop/bashscript/$file.sh
 echo '# ---------------XXXXX---------------- #' >> /home/brajesh/Desktop/bashscript/$file.sh
