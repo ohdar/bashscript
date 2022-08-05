@@ -18,7 +18,7 @@
 #            F - T - T
 #            T - T - T
 #            F - F - T
-# - NOT ------ (-n) !) ------ [If condition is NOT TRUE THEN Execute First Statement AND If condition is TRUE THEN Execute Second Statement]
+# - NOT ------ (-n) !) ------ [If condition(NOT TRUE) is TRUE THEN Execute First Statement AND If condition(NOT TRUE) is FALSE THEN Execute Second Statement]
 #            T - F
 #            F - T
 
