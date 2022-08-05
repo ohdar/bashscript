@@ -1,6 +1,3 @@
-# bashscript
-bashscript
-
  <blink>
  List of File names
 </blink>
