@@ -12,16 +12,21 @@ bashscript
 ├── bash.sh
 ├── basic.sh
 ├── case.sh
+├── casestatement.sh
+├── continue-statement.sh
 ├── countargsexample.sh
 ├── countargs.sh
 ├── else-if-statement.sh
 ├── filecreatedbytemplate.sh
 ├── filecreatefromtemplate1-currentdirectry.sh
 ├── File_Sequence_tree.md
+├── for-loop.sh
 ├── getosdetails.sh
+├── hostfile
 ├── ifelse.sh
 ├── if-else-statement.sh
 ├── ifstatement.sh
+├── launchweb-browser.sh
 ├── LICENSE
 ├── LogicalOperator-with-Commands.md
 ├── logicalops.sh
@@ -36,9 +41,10 @@ bashscript
 ├── template-making-code-current-directory.sh
 ├── template-making-code.sh
 ├── testfile.sh
-└── variables.sh
+├── variables.sh
+└── while-loop.sh
 
-0 directories, 30 files
+0 directories, 36 files
 
 </code>
 </pre>
