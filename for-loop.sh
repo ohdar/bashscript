@@ -14,13 +14,20 @@
 
 for i in `cat hostfile`
 do
-    ping -c 3 $i
+    ping -c 1 $i  >> /tmp/pingresults
     valid=`echo $?`
     if [ $valid -gt 1 ]; then
         echo "$i Host is not reachable"
     else
         echo "$i Host is reachable"
     fi
+done
+
+#--- Another Example ----
+
+for i in 1 2 3 4 5
+do
+    echo "$i"
 done
 
 # ------------------------------- #
