@@ -76,7 +76,7 @@
 
 ## Using parentheses does not just group the commands. This opens a new subshell and then run the commands in it.
 
-## To just groups the commands, instead of :
+# To just groups the commands, instead of :
 
 > command1 || (command2; command3)
 
@@ -91,14 +91,14 @@
 > <pre><code>CTX=one; ( CTX=two; echo "${CTX}" );  echo "${CTX}" </pre></code>
 
 Will print :
-two
-one
+two.
+one.
 
 When :
 
 > <pre><code>CTX=one; { CTX=two; echo "${CTX}";};  echo "${CTX}"</pre></code>
 
 Will print :
-two
-two
+two .
+two .
 
