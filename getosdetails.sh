@@ -55,6 +55,40 @@ get_distribution() {
 
 get_distribution
 
+function flushdns() {
+	# Flush DNS cache
+	if [[ $OSTYPE == darwin* ]]; then
+		# works on macOS
+		alias flushdns='sudo dscacheutil -flushcache'
+	elif [[ $OSTYPE == linux* ]]; then
+		# works on Ubuntu 18.04+
+		alias flushdns='sudo systemd-resolve --flush-caches'
+	fi
+ 	echo "DNS FLUSHED"
+}
+
+flushdns
+
+function checkos (){
+UNAME=$(uname -s | tr '[:upper:]' '[:lower:]')
+
+# example if/esle statement 1
+if [[ $UNAME = darwin ]]; then
+  echo "You are on macOS"
+elif [[ $UNAME = linux ]]; then 
+  echo "You are on Linux"
+fi
+
+# example if/esle statement 2
+[[ $UNAME = darwin ]] && echo "You are on macOS1" || echo "You are on macOS2"
+
+# example if/esle statement 3
+if [[ $UNAME = darwin ]]; then echo "You are on macOS3"; else echo "You are on macOS4"; fi
+
+}
+
+checkos
+
 # ------------------------------- #
 # END #
 # ---------------XXXXX---------------- #
