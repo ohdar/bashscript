@@ -9,8 +9,10 @@ bashscript
 .
 ├── arithmatics1.sh
 ├── arithmatics.sh
+├── array-example.sh
 ├── bash.sh
 ├── basic.sh
+├── Beginners Guide to dpkg Linux Command.md
 ├── case.sh
 ├── casestatement.sh
 ├── continue-statement.sh
@@ -21,6 +23,7 @@ bashscript
 ├── filecreatefromtemplate1-currentdirectry.sh
 ├── File_Sequence_tree.md
 ├── for-loop.sh
+├── functioninshellprog.sh
 ├── getosdetails.sh
 ├── hostfile
 ├── ifelse.sh
@@ -37,14 +40,17 @@ bashscript
 ├── README.md
 ├── relationalops.sh
 ├── removetempfilesubuntu.sh
+├── setbashfeature.sh
+├── shiftpositionalparameters.sh
 ├── specialvariables.sh
 ├── template-making-code-current-directory.sh
 ├── template-making-code.sh
 ├── testfile.sh
+├── until-loop.sh
 ├── variables.sh
 └── while-loop.sh
 
-0 directories, 36 files
+0 directories, 42 files
 
 </code>
 </pre>
