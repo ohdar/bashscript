@@ -26,6 +26,13 @@ takebackup /etc/hosts
     echo "Backup Success"
     fi
 
+function testing (){
+    echo "Just Testing Function"    
+}
+
+testing
+
+
 # ------------------------------- #
 # END #
 # ---------------XXXXX---------------- #
