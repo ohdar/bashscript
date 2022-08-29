@@ -25,4 +25,4 @@ echo '# sh filename.sh' >> $path/$file.sh
 
 # Move this file to /bin using below command
 # chmod 777 template1
-# sudo mv template /bin/
+# sudo mv template1 /bin/
