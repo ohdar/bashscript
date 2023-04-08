@@ -1,0 +1,10 @@
+[Scenario]: Every day from Monday to Friday one directory will be created under /fullbackup/dailybackup/YYYY-MM-DD and it will move back up to its parent directory everyday midnight /fullbackup/archive/, However Saturday, Sunday and Monday directories will move to /fullbackup/archive path every Monday evining.
+
+[Directory Names Example]: 2023-04-01 2023-04-02 2023-04-03 2023-04-04 2023-04-05 2023-04-06 2023-04-07 2023-04-08 2023-04-09 2023-04-10
+
+[Question]: I would like to delete directories older than two days from /fullbackup/archive path. How do you do it using any scripting methods?
+
+[Problem Statement]: I was tryng to find /path/ -type d -mtime +2 -print0 | xargs -r0 --. This command does not works as expected due to directory modified date for SAT, SUN and MON are Mondays date.
+
+How do you solve it? Write Shell Script or Any other script to accomplish this task. Should run through crontab and clear directories older than two days.
+
