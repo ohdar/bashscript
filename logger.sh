@@ -23,3 +23,5 @@ fi
 # ./filename.sh
 # ./filename.sh options if required
 # sh filename.sh
+# cat /var/log/syslog |grep LoggerScript in debian based distro
+# cat /var/log/messages |grep LoggerScript in rpm based distro
