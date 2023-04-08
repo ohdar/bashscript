@@ -25,3 +25,7 @@ fi
 # sh filename.sh
 # cat /var/log/syslog |grep LoggerScript in debian based distro
 # cat /var/log/messages |grep LoggerScript in rpm based distro
+# output will like below
+# Apr  8 21:51:04 brajeshvm LoggerScript: Successfully Executed
+# Apr  8 21:53:49 brajeshvm LoggerScript: Successfully Executed
+# Apr  8 21:53:59 brajeshvm LoggerScript: Successfully Executed
