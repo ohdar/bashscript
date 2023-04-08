@@ -7,7 +7,7 @@
 # START #
 # ------------------------------- #
 
-echo "Second File Script Output";
+echo "Second File Script Output"
 sh /home/brajesh/Desktop/bashscript/thirdfile.sh
 
 # ------------------------------- #

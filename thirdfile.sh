@@ -7,7 +7,7 @@
 # START #
 # ------------------------------- #
 
-echo "Last File Script Output";
+echo "Last File Script Output"
 
 # ------------------------------- #
 # END #
